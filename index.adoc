@@ -2,7 +2,8 @@
 T. Smith
 :source-highlighter: highlight.js
 :xrefstyle: short
-// :sectnums:
+:sectnums:
+:icons: font
 :idprefix!: 
 :idseparator: -
 :tip-caption: WPILib:
