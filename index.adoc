@@ -352,7 +352,7 @@ LINKS:
 
 == Resources
 
-* {url-wpilibdocs}[WPILib Documentation] (https://github.wpilib.org/allwpilib/docs/release/cpp/index.html[*{CPP}* API^]) (https://github.com/wpilibsuite/allwpilib/tree/main/wpilibcExamples/src/main/cpp/examples[Example Code^])
+* {url-wpilibdocs}[WPILib Documentation^] (https://github.wpilib.org/allwpilib/docs/release/cpp/index.html[*{CPP}* API^]) (https://github.com/wpilibsuite/allwpilib/tree/main/wpilibcExamples/src/main/cpp/examples[Example Code^])
 
 * https://docs.revrobotics.com/sparkmax/software-resources/spark-max-api-information[Rev Robotics REVLib Docs^] 
 (https://codedocs.revrobotics.com/cpp/namespacerev.html[*{CPP}* API^]) (https://github.com/REVrobotics/SPARK-MAX-Examples/tree/master/C%2B%2B[Example Code^])
@@ -372,8 +372,8 @@ LINKS:
 
 * https://hackingcpp.com/cpp/libs/fmt.png[*{fmt}* Cheat Sheet^]
 
-* https://www.projectb.net.au/resources/robot-mechanisms/[The Unofficial FRC Mechanism Encyclopedia]
+* https://www.projectb.net.au/resources/robot-mechanisms/[The Unofficial FRC Mechanism Encyclopedia^]
 
-* https://team2471.files.wordpress.com/2017/10/manipulators-firstfare-2017.pdf[Manipulators by Team 2471]
+* https://team2471.files.wordpress.com/2017/10/manipulators-firstfare-2017.pdf[Manipulators by Team 2471^]
 
 <<top,TOP>>
