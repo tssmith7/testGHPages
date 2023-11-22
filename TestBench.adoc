@@ -1,5 +1,5 @@
 = Test Bench Exercises
-:source-highlighter: highlight.js
+:source-highlighter: coderay
 :xrefstyle: short
 :stem:
 :sectnums:
@@ -54,7 +54,7 @@ You should now have an empty project.  The two files that we will be working wit
 image::BlankProject.gif[Blank Project, align="center"]
 
 .Contents of Generated Robot.h
-[source,C++]
+[source,CPP]
 ----
 // Copyright (c) FIRST and other WPILib contributors.
 // Open Source Software; you can modify and/or share it under the terms of
