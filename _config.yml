@@ -3,11 +3,11 @@ title: 4698 Raider Robotics Team Guide
 baseurl: /testGHPages
 description: The Raider Robotics Team Guide has resources to help newer team members learn the skills they need for FRC robotics.
 exclude:
-- LICENSE
 - README.adoc
-- Gemfile
-- Gemfile.lock
-- Rakefile
+
+plugins:
+- jekyll-asciidoc
+
 asciidoc: {}
 asciidoctor:
   base_dir: :docdir
