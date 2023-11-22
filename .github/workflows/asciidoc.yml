@@ -35,7 +35,9 @@ jobs:
         with:
           ruby-version: 2.7
       - run: gem install asciidoctor
+      - run: actions/configure-pages@v3
       - run: asciidoctor --version
+      - run: ls -Ra
       # - name: Setup Pages
       #   id: pages
       #   uses: actions/configure-pages@v3
