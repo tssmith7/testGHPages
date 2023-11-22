@@ -36,17 +36,11 @@ jobs:
         with:
           ruby-version: 2.7
       - run: gem install asciidoctor
-      - run: asciidoctor --version
-      - run: ls -Ra
-      # - name: Setup Pages
-      #   id: pages
-      #   uses: actions/configure-pages@v3
-      # - name: Build with mdBook
-      #   run: mdbook build
-      # - name: Upload artifact
-      #   uses: actions/upload-pages-artifact@v2
-      #   with:
-      #     path: ./book
+      - run: asciidoctor -D _site `ls -R *.adoc`
+      - run: cp fonts _site/fonts
+      - run: cp -r fonts img css _site
+      - name: Upload artifact
+         uses: actions/upload-pages-artifact@v2
 
   # Deployment job
   deploy:
