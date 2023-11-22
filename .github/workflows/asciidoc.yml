@@ -35,9 +35,13 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
-      - run: gem install asciidoctor
-      - run: asciidoctor -D _site `ls -R *.adoc`
-      - run: cp -r fonts img css _site
+
+      - name: Install Jekyll AsciiDoc
+        run: gem install jekyll-asciidoc bundler coderay
+
+      - name: Build Web Pages
+        run: jekyll build
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
 
