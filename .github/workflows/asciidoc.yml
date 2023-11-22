@@ -37,7 +37,6 @@ jobs:
           ruby-version: 2.7
       - run: gem install asciidoctor
       - run: asciidoctor -D _site `ls -R *.adoc`
-      - run: cp fonts _site/fonts
       - run: cp -r fonts img css _site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
