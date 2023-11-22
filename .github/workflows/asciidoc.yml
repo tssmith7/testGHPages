@@ -40,7 +40,7 @@ jobs:
       - run: cp fonts _site/fonts
       - run: cp -r fonts img css _site
       - name: Upload artifact
-         uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v2
 
   # Deployment job
   deploy:
